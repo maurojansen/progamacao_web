@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Formulário de Cadastro de Clientes</title>
+	</head>
+	<body>
+		<form action="cadastra_cliente.html" name="cad" method="get">
+		<h2 align="center">CADASTRO DE CLIENTE</h2>
+		<fieldset>
+			<legend> Dados Pessoais </legend>
+
+			<label for="nome">Nome:</label> 
+			<input type="text" name="nome" id="nome" size="50" maxlength="50" required />
+			<br/>
+			<label for="sexo">Sexo:</label>
+			<input type="radio" name="sexo" value="M" id="sexo" required />Masculino 
+			<input type="radio" name="sexo" value="F" id="sexo" required />
+			Faminino
+			<br>
+			<label for="ecivil">Estado Civil:</label>
+			<select name="ecivil" size=1 id="ecivil" required >
+			<option>Solteiro(a)</option>
+			<option>Casado(a)</option>
+			<option>Viuvo(a)</option>
+			<option>Divorciado(a)</option>
+			<option>Enrolado(a)</option>
+			</select>
+		</fieldset>
+		<fieldset>
+			<legend> Endereço </legend>
+
+			<label for="endereco">Logradouro:</label> 
+			<input type="text" name="endereco" id="endereco" size="50" maxlength="50" />
+			<br/>
+			<label for="num">Número:</label> 
+			<input type="text" name="num" id="num" size="10" maxlength="10" />
+			<br/>
+			<label for="compl">Número:</label> 
+			<input type="text" name="compl" id="compl" size="50" maxlength="50" />
+			<br/>
+			<label for="cidade">Cidade:</label> 
+			<input type="text" name="cidade" id="cidade" size="40" maxlength="40" />
+			<br>
+			<label for="uf">UF:</label> 
+			<label for="ecivil">Estado Civil:</label>
+			<select name="uf" size=1 id="uf">
+			<option>AC</option>
+			<option>AL</option>
+			<option>AP</option>
+			<option>AM</option>
+			<option>BA</option>
+			<option>CE</option>
+			<option>DF</option>
+			<option>ES</option>
+			<option>GO</option>
+			<option>MA</option>
+			<option>MT</option>
+			<option>MS</option>
+			<option>MG</option>
+			<option>PA</option>
+			<option>PB</option>
+			<option>PR</option>
+			<option>PE</option>
+			<option>PI</option>
+			<option>RJ</option>
+			<option>RN</option>
+			<option>RS</option>
+			<option>RO</option>
+			<option>RR</option>
+			<option>SC</option>
+			<option>SP</option>
+			<option>SE</option>
+			<option>TO</option>
+			</select>
+
+		</fieldset>
+
+
+		<input type="submit" name="Salvar" value="Salvar" />
+		</form>
+	</body>
+</html>
