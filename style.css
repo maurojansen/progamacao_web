@@ -1,2 +1,19 @@
-h1 {color:darkblue; font-size:60px }
-body {background-color: lightblue;}
+/* seletor universal  */
+* {margin:0; padding 0; color:red;}
+
+/* seletor tag ou seletor elemento  */
+h1 {color: blue; font-size: 50px;}
+p {color: black; font-size: 18px;}
+
+/* seletor atributo:
+ - Todo input de texto ou e-mail com largura 200, cor cinza, altura 35
+ - Todo submit com largura 50, cor de fundo verde, altura 35, sem borda, cor de frente branca
+*/
+input[type="text"] {width: 200px; background-color: lightgreen; height: 35px; border: none;}
+input[type="email"] {width: 200px; background-color: #ccc; height: 35px; border: none;}
+input[type="submit"] {width: 50px; background-color: green; height: 35px; border: none;  color: white}
+;}
+
+/* aula 01
+h1 {color:blue; font-size: 60px; font-family}
+*/
