@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Média de notas</h2>
+
+<label for="nota1">1ª nota:</label>
+<input id="nota1">
+<br>
+<label for="nota2">2ª nota:</label>
+<input id="nota2">
+
+<button type="button" onclick="calculaMedia()">Enviar</button>
+
+<p id="msg1"></p>
+<p id="msg2"></p>
+
+<script>
+function calculaMedia() {
+  var n1,n2, media, msg1, msg2;
+
+  // pega os valores do form
+  n1 = document.getElementById("nota1").value;
+  n2 = document.getElementById("nota2").value;
+  //document.getElementById("msg2").innerHTML = msg2;
+  // If x is Not a Number or less than one or greater than 10
+  if(isNaN(n1) ) {
+    msg1 = "Você deve digitar duas notas de 0 a 10";  } 
+   else {
+    media = (n1+n2)/2;
+    msg1 = media;
+    if(media>=7) {
+      msg2 = "Aprovado!";
+    } else
+      msg2 = "Recuperação";
+  }
+  document.getElementById("msg1").innerHTML = msg1;
+//  document.getElementById("msg2").innerHTML = msg2;
+}
+</script>
+
+</body>
+</html> 
