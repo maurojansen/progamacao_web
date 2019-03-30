@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+	div {border-style:solid; background-color:lightyellow; border-radius:8px}
+</style>
+<head>
+	<body>
+
+		<h1>TÍTULO DO MEU SITE</h1>
+
+		<div>
+			<p>Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1.</p>
+			<p>Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 </p>
+			<p>Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 </p>
+		</div>
+		<br>
+		<div>
+			<p>Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1.</p>
+			<p>Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 </p>
+		</div>
+
+
+	</body>
+	</html> 
