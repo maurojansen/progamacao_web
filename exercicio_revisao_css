@@ -2,24 +2,86 @@
 <html>
 <head>
 	<style>
-	div {border-style:solid; background-color:lightyellow; border-radius:8px}
+	div {border-style:solid; background-color:lightyellow; border-radius:8px;}
+	p {color: blue;}
+	h1 {text-align:center; font-size:30px;}
+	.margem50 {margin-left:50%;}
+
 </style>
+</head>
+<body>
+
+	<h1>TÍTULO DO MEU SITE</h1>
+
+	<div><!DOCTYPE html>
+2
+<html>
+3
 <head>
-	<body>
+4
+        <style>
+5
+        div {border-style:solid; background-color:lightyellow; border-radius:8px;}
+6
+        p {color: blue;}
+7
+        h1 {text-align:center; font-size:30px;}
+8
+        .margem50 {margin-left:50%;}
+9
+        
+10
+</style>
+11
+</head>
+12
+        <body>
+13
+​
+14
+                <h1>TÍTULO DO MEU SITE</h1>
+15
+​
+16
+                <div>
+17
+                        <p>Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1.</p>
+18
+                        <p>Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 </p>
+19
+                        <p class="margem50">Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 </p>
+20
+                </div>
+21
+                <br>
+22
+                <div>
+23
+                        <p>Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1.</p>
+24
+                        <p>Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 </p>
+25
+                </div>
+26
+​
+27
+​
+28
+        </body>
+29
+        </html> 
+30
 
-		<h1>TÍTULO DO MEU SITE</h1>
-
-		<div>
-			<p>Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1.</p>
-			<p>Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 </p>
-			<p>Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 </p>
-		</div>
-		<br>
-		<div>
-			<p>Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1.</p>
-			<p>Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 </p>
-		</div>
+		<p>Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1.</p>
+		<p>Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 </p>
+		<p class="margem50">Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 </p>
+	</div>
+	<br>
+	<div>
+		<p>Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1.</p>
+		<p>Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 </p>
+	</div>
 
 
-	</body>
-	</html> 
+</body>
+</html> 
