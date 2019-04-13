@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+	<script>
+    /* esta função mostra a imagem na tela
+      mas o arquivo selecionado deve estar na mesma pasta do seu arquivo html
+    */
+		function mostraImagem()
+		{
+			var arq;
+			arq=document.getElementById("arq").files[0].name;
+			document.getElementById("file").innerHTML=arq;
+			document.getElementById('img').src=arq;
+		}
+    
+    /* crie aqui uma ou duas funções JS para aumentar e diminuir a imagem */
+    
+	</script>
+
+
+	<form action="/action_page.php">
+		Selecione a imagem na subpasta img: <input type="file" name="arq" id="arq" ><br><br>
+	</form>
+  <p>O arquivo da imagem deve estar na mesma pasta onde está este arquivo html</p>
+  
+	<button onclick="mostraImagem()">Mostrar imagem</button>
+  
+	<p id="file"> </p>
+	<img id="img" src="">
+
+
+</body>
+</html>
